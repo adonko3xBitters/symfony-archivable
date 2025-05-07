@@ -1,5 +1,5 @@
 {
-  "name": "adonko3xBitters/symfony-archibale",
+  "name": "adonko3xbitters/symfony-archivale",
   "description": "A reusable Symfony trait for archiving entities using Doctrine filters.",
   "type": "library",
   "license": "MIT",

@@ -11,19 +11,19 @@ Install the package via Composer:
 composer require adonko3xBitters/symfony-archivable
 ```
     
-## Features
+## 🚀 Features
 
 - Easily mark entities as archived using a single trait.
 - Automatically exclude archived records from Doctrine queries.
 - Enable or disable the filter at runtime.
 
 
-## Usage/Examples
+## 🧑‍💻 Usage/Examples
 
 #### 1. Use the ```Archivable``` trait in your entities
 
 ```php
-use YourVendor\SymfonyArchivable\Archivable;
+use adonko3xBitters\SymfonyArchivable\Archivable;
 
 #[ORM\Entity]
 class Article
@@ -68,7 +68,7 @@ $entityManager->getFilters()->disable('archived');
 
 $entityManager->getFilters()->enable('archived');
 ```
-## Directory Structure
+## 📂 Directory Structure
 
 ```css
 src/
@@ -76,12 +76,12 @@ src/
 └── Doctrine/
     └── ArchivedFilter.php
 ```
-## License
+## 📄 License
 
 This package is open-sourced software licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ---
-## Authors
+## 👤 Authors
 
 - [@adonko3xBitters](https://https://github.com/adonko3xBitters)
 
