@@ -1,0 +1,11 @@
+---
+
+### 🐙 6. Publier sur GitHub
+
+```bash
+cd symfony-archivable
+git init
+git remote add origin https://github.com/adonko3xBitters/symfony-archivable.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master

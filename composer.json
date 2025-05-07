@@ -1,0 +1,22 @@
+{
+  "name": "adonko3xBitters/symfony-archibale",
+  "description": "A reusable Symfony trait for archiving entities using Doctrine filters.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "adonko3xbitters",
+      "email": "niando.a@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "adonko3xBitters\\SymfonyArchivable\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "doctrine/orm": "^2.14",
+    "symfony/framework-bundle": "^6.0 || ^7.0"
+  }
+}
