@@ -3,6 +3,7 @@
   "description": "A reusable Symfony trait for archiving entities using Doctrine filters.",
   "type": "library",
   "license": "MIT",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "adonko3xbitters",
